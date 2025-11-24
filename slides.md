@@ -4,6 +4,7 @@ title: Product Documentation Deck
 paginate: true
 theme: custom-theme
 footer: "© 2025 Software Company | Contact: 24f2004824@ds.study.iitm.ac.in"
+math: mathjax
 style: |
   section {
     font-family: "Segoe UI", sans-serif;
@@ -12,7 +13,6 @@ style: |
     color: #0078D4;
     text-shadow: 1px 1px 2px #00000050;
   }
-math: mathjax
 ---
 
 <!-- _class: lead -->
@@ -25,71 +25,57 @@ math: mathjax
 
 # Introduction
 
-- This presentation is authored using **Marp**
-- Markdown-based → version control friendly 👍
-- Export to **PDF / HTML / PPTX** easily
+- Built using **Marp**
+- Maintainable in version control
+- Converts to **PDF / HTML / PPTX**
 
 ---
 
-# Key Features
+# System Architecture
 
-- Developer-friendly
+Key features:
+- API-first design
 - Modular components
-- API-first architecture
-- Supports custom integrations
+- Developer-friendly
 
 ---
 
-<!-- _background: "https://images.unsplash.com/photo-1531497865144-0464ef8fb9a2" -->
+<!-- Slide WITH official Marp background syntax -->
+<!-- backgroundImage: "https://images.unsplash.com/photo-1531497865144-0464ef8fb9a2" -->
+<!-- backgroundSize: cover -->
 <!-- _color: white -->
 
-# Architecture Overview
+# 📐 Platform Overview
 
-> System designed for high scalability and fault tolerance
+> Scalable • Distributed • Secure
 
 ---
 
 # Algorithmic Complexity
 
-Example — sorting complexity:
+Sorting performance:
 
 $$ O(n \log n) $$
 
-Where:
-
-- \( n \) = number of elements
-- Recursive divide & conquer model
+Where \( n \) = number of elements
 
 ---
 
-# Contact & Support
+# Contact
 
-📧 Email: **24f2004824@ds.study.iitm.ac.in**  
-🌐 Developer Portal Coming Soon…
+📧 24f2004824@ds.study.iitm.ac.in  
+Thank You!
 
 ---
 
-<!-- Custom Theme -->
-<style>
-:root {
-  --color-background: #fdfdfd;
-  --color-foreground: #222;
-  --color-highlight: #0078D4;
-  --color-accent: #005a9e;
-}
-
-section {
-  padding: 60px;
-}
-</style>
-
-<!-- Define a custom theme (Marp theme CSS) -->
+<!-- Custom Theme Definition -->
 <style id="theme-custom-theme">
 section {
-  background: var(--color-background);
-  color: var(--color-foreground);
+  background: #ffffff;
+  color: #111111;
+  padding: 60px;
 }
 h1, h2, strong {
-  color: var(--color-highlight);
+  color: #0078D4;
 }
 </style>
