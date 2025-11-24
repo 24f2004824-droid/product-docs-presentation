@@ -48,3 +48,21 @@ flowchart TD
 A[Product Features] --> B[Documentation System]
 B --> C[Marp Markdown]
 C --> D[HTML / PDF / PPTX]
+
+---
+marp: true
+theme: custom-theme
+paginate: true
+footer: "Product Documentation Presentation — 24f2004824@ds.study.iitm.ac.in"
+---
+
+<!-- Slide with background image -->
+<!-- Use backgroundImage directive -->
+---
+backgroundImage: url("https://i.imgur.com/2Jg8H7O.jpeg")
+backgroundSize: cover
+---
+
+# ✨ Visual Example  
+A slide with a **real Marp background image directive**
+
