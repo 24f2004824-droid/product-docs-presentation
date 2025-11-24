@@ -2,10 +2,10 @@
 marp: true
 theme: custom-theme
 paginate: true
-footer: "Product Documentation Presentation — 24f2004824@ds.study.iitm.ac.in"
+footer: "Product Documentation — 24f2004824@ds.study.iitm.ac.in"
 ---
 
-<!-- Custom Theme -->
+<!-- Custom Theme Styling -->
 <style>
 section {
   font-family: "Segoe UI", sans-serif;
@@ -26,33 +26,18 @@ footer {
 }
 </style>
 
-<!-- Custom Theme Definition -->
-<!--
-You can also store theme in a separate .css file for reuse in repo
--->
-<style>
-:root {
-  --background: #FFFFFF;
-  --color: #111111;
-}
-section {
-  background-color: var(--background);
-  color: var(--color);
-}
-</style>
-
 # 📄 Product Documentation  
-### A Maintainable + Multi-format Approach  
+### Maintainable • Version Controlled • Multi-Format  
 **Author:** 24f2004824@ds.study.iitm.ac.in
 
 ---
 
-## Why Marp?
+## Why Use Marp for Documentation?
 
-- Markdown-based → easy version control  
-- Export to PDF / PPTX / HTML  
-- Lightweight and maintainable  
-- Easily customizable themes
+- Markdown-based → easy to edit & review  
+- Version control friendly (GitHub / CI/CD)
+- Convert to **PDF / PPTX / HTML** easily
+- Customizable themes and styles
 
 ---
 
