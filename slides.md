@@ -1,81 +1,65 @@
 ---
 marp: true
-title: Product Documentation Deck
-paginate: true
 theme: custom-theme
-footer: "© 2025 Software Company | Contact: 24f2004824@ds.study.iitm.ac.in"
-math: mathjax
-style: |
-  section {
-    font-family: "Segoe UI", sans-serif;
-  }
-  h1 {
-    color: #0078D4;
-    text-shadow: 1px 1px 2px #00000050;
-  }
+paginate: true
+footer: "Product Documentation Presentation — 24f2004824@ds.study.iitm.ac.in"
 ---
 
-<!-- _class: lead -->
-
-# Product Documentation  
-## Version 1.0  
-📧 24f2004824@ds.study.iitm.ac.in
-
----
-
-# Introduction
-
-- Built using **Marp**
-- Maintainable in version control
-- Converts to **PDF / HTML / PPTX**
-
----
-
-# System Architecture
-
-Key features:
-- API-first design
-- Modular components
-- Developer-friendly
-
----
-
-<!-- Slide WITH official Marp background syntax -->
-<!-- backgroundImage: "https://images.unsplash.com/photo-1531497865144-0464ef8fb9a2" -->
-<!-- backgroundSize: cover -->
-<!-- _color: white -->
-
-# 📐 Platform Overview
-
-> Scalable • Distributed • Secure
-
----
-
-# Algorithmic Complexity
-
-Sorting performance:
-
-$$ O(n \log n) $$
-
-Where \( n \) = number of elements
-
----
-
-# Contact
-
-📧 24f2004824@ds.study.iitm.ac.in  
-Thank You!
-
----
-
-<!-- Custom Theme Definition -->
-<style id="theme-custom-theme">
+<!-- Custom Theme -->
+<style>
 section {
-  background: #ffffff;
-  color: #111111;
-  padding: 60px;
+  font-family: "Segoe UI", sans-serif;
 }
-h1, h2, strong {
-  color: #0078D4;
+h1 {
+  color: #007ACC;
+}
+h2 {
+  color: #003366;
+}
+footer {
+  font-size: 12px;
+  color: #666;
+}
+.big-text {
+  font-size: 32px;
+  font-weight: bold;
 }
 </style>
+
+<!-- Custom Theme Definition -->
+<!--
+You can also store theme in a separate .css file for reuse in repo
+-->
+<style>
+:root {
+  --background: #FFFFFF;
+  --color: #111111;
+}
+section {
+  background-color: var(--background);
+  color: var(--color);
+}
+</style>
+
+# 📄 Product Documentation  
+### A Maintainable + Multi-format Approach  
+**Author:** 24f2004824@ds.study.iitm.ac.in
+
+---
+
+## Why Marp?
+
+- Markdown-based → easy version control  
+- Export to PDF / PPTX / HTML  
+- Lightweight and maintainable  
+- Easily customizable themes
+
+---
+
+## Architecture Overview
+
+```mermaid
+flowchart TD
+A[Product Features] --> B[Documentation System]
+B --> C[Marp Markdown]
+C --> D[HTML / PDF / PPTX]
