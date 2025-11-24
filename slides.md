@@ -5,64 +5,43 @@ paginate: true
 footer: "Product Documentation — 24f2004824@ds.study.iitm.ac.in"
 ---
 
-<!-- Custom Theme Styling -->
 <style>
-section {
-  font-family: "Segoe UI", sans-serif;
-}
-h1 {
-  color: #007ACC;
-}
-h2 {
-  color: #003366;
-}
-footer {
-  font-size: 12px;
-  color: #666;
-}
-.big-text {
-  font-size: 32px;
-  font-weight: bold;
-}
+section { font-family: "Segoe UI", sans-serif; }
+h1 { color: #007ACC; }
+h2 { color: #003366; }
 </style>
 
 # 📄 Product Documentation  
-### Maintainable • Version Controlled • Multi-Format  
+### Maintainable • Git Versioned • Multi-Format  
 **Author:** 24f2004824@ds.study.iitm.ac.in
 
 ---
 
-## Why Use Marp for Documentation?
+## Why Marp?
 
-- Markdown-based → easy to edit & review  
-- Version control friendly (GitHub / CI/CD)
-- Convert to **PDF / PPTX / HTML** easily
-- Customizable themes and styles
+- Markdown-based  
+- Version control friendly  
+- Convert to PDF / PPTX / HTML  
+- Custom themes
 
 ---
 
-## Architecture Overview
+## Algorithm Complexity Example 📊
+
+\[
+T(n) = O(n \log n)
+\]
+
+\[
+S(n) = O(n)
+\]
+
+---
+
+## Architecture
 
 ```mermaid
 flowchart TD
-A[Product Features] --> B[Documentation System]
+A[Features] --> B[Documentation System]
 B --> C[Marp Markdown]
-C --> D[HTML / PDF / PPTX]
-
----
-marp: true
-theme: custom-theme
-paginate: true
-footer: "Product Documentation Presentation — 24f2004824@ds.study.iitm.ac.in"
----
-
-<!-- Slide with background image -->
-<!-- Use backgroundImage directive -->
----
-backgroundImage: url("https://i.imgur.com/2Jg8H7O.jpeg")
-backgroundSize: cover
----
-
-# ✨ Visual Example  
-A slide with a **real Marp background image directive**
-
+C --> D[Exports (PDF/PPTX/HTML)]
